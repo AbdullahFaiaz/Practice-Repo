@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ul span{
+    @apply px-[1.3vw] py-[0.7vw] rounded-md text-[1.3vw] hover:text-[#e8ae29]
+  }
+ .active span{
+    @apply bg-[#e8ae29] text-black hover:text-black
+  }
+
+
+  .kalam-light {
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .kalam-regular {
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .kalam-bold {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
